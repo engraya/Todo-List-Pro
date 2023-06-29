@@ -1,0 +1,119 @@
+body{
+    height: 100vh;
+    background: url(images/image\ \(6\).jpg) no-repeat center center/ cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-task-container{
+    width: 350px;
+    padding: 20px 10px;
+    background: white;
+    border-radius: 21px;
+    box-shadow: 0 0 3px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    margin-right: 300px;
+    margin-left: 450px; 
+    position: relative;
+
+}
+
+input {  
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+#add-task{
+    flex: 1;
+    transition:  .3s;
+    font-size: 1.2rem;
+    padding: 5px;
+    background-color: rgb(248, 245, 242);
+    color: green;
+    border: green solid 2px;
+    border-radius: 10px;
+}
+
+
+#add-task:hover {
+    background-color: green;
+    color: blanchedalmond;
+}
+
+
+.task{
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    box-shadow: 0 0 3px;
+    padding: 5px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task li {
+    list-style: none;
+    flex: 4;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 11px;
+}
+
+.task button {
+    flex: 1;
+    border-radius: 11px;
+    background-color: azure;
+    cursor: pointer;
+}
+
+.task .checkTask {
+    color: green;
+    margin-right: 5px;
+    border: solid 2px green;
+    font-size: 1.5rem;
+}
+
+.task .checkTask:hover {
+    background-color: green;
+    color: blanchedalmond;
+}
+
+.task .deleteTask:hover {
+    background-color: red;
+    color: beige;
+}
+
+.task .deleteTask {
+    color: red;
+    margin-right: 5px;
+    border: solid 2px red;
+    font-size: 1.3rem;
+}
+
+#task-container{
+    width: 350px;
+    padding: 20px 10px;
+    background: white;
+    border-radius: 21px;
+    box-shadow: 0 0 3px;
+    
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    margin-right: 300px;
+    margin-left: 450px; 
+
+}
+
+
+
